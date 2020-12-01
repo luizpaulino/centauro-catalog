@@ -4,7 +4,9 @@ A ideia é expor uma solução que permita consultar valores dos produtos em tod
 
 ### Pré requisitos para rodar o projeto
  - Docker compose
+
  ou
+
  - NodeJS [14.x]
  - yarn [1.x]
  - redis [6.x]
