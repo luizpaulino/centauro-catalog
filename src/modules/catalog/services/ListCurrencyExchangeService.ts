@@ -46,6 +46,8 @@ class ListCurrencyExchangeService {
       throw new AppError('There are no currencies registered for service', 404);
     }
 
+    console.log(Object.keys(currencies).join());
+
     const apiCurrencyExchange = axios.create({
       baseURL: 'https://api.frankfurter.app/latest'
     });

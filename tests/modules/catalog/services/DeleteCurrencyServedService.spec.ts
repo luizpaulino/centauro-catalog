@@ -34,7 +34,7 @@ describe('DeleteCurrencyServedService', () => {
       code: 'USD'
     });
 
-    expect(currency).toEqual({ 'USD': false });
+    expect(currency).toEqual({});
   });
 
   it('should not be able to delete currencies if empty', async () => {

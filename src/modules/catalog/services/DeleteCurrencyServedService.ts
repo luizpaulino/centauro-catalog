@@ -38,7 +38,7 @@ class DeleteCurrencyServedService {
       throw new AppError('Currency not found', 404);
     }
 
-    currencies[code] = false;
+    delete currencies[code];
 
     await this.cacheProvider.save('currencies-list', currencies);
 
